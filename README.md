@@ -1,4 +1,9 @@
-# Desafio Rick and Morty com Flask e Tailwind CSS
+<h1>
+    <a href="challengerickymorty.vercel.app" target="_blank">
+     <img align="center" width="40px" src="./static/favicon.ico"></a>
+    <span>Desafio Rick and Morty com Flask e Tailwind CSS</span>
+</h1>
+
 
 Este é um projeto para consumir a API pública de Rick and Morty, que fornece informações sobre os personagens, localizações e episódios da série. O aplicativo é desenvolvido usando Flask, um microframework em Python, e estilizado com Tailwind CSS para um design moderno e responsivo.
 
