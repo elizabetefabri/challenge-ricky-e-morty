@@ -3,6 +3,10 @@ import urllib.request, json
 
 app = Flask(__name__)
 
+@app.route('/favicon.ico')
+def favicon():
+    return send_from_directory(app.static_folder, 'favicon.ico', mimetype='image/vnd.microsoft.icon')
+
 @app.route("/")
 def get_list_characters_page():
     url = "https://rickandmortyapi.com/api/character/"
